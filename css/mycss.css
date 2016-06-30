@@ -1,0 +1,180 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.center {
+	text-align: center;
+}
+
+.tcolor{
+	color: white;
+}
+
+.bttn {
+	margin-left: 45%
+}
+.bg {
+  background: url("park.jpg") no-repeat center center;
+  position: fixed;
+  width: 100%;
+  height: 650px; /*same height as jumbotron */
+  top:0;
+  left:0;
+  z-index: -1;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.h3 {
+	font-size: 30px;
+}
+
+.jumbotron {
+  height: 650px;
+  color: white;
+  background:transparent;
+}
+
+
+.pad-section {
+  padding: 32px 0;
+  margin: auto;
+}
+
+.text-vcenter {
+  text-align: center;
+  vertical-align: middle;
+   margin-top: 15%;
+  font-size: 4.5em;
+  font-weight: 700;
+   text-shadow: #444 0 1px 1px;
+}
+
+.img_fit{
+	height: 50%;
+	width: 50%;
+	overflow: hidden;
+	margin: auto;
+}
+
+.imgfit {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	margin: auto;
+	padding-top: 2%;
+}
+
+.color {
+	color:black;
+}
+
+#resume {
+  background-color: rgb(32, 64, 86);  
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#resume .panel {
+  opacity: 1.0;
+  height: 70%;
+
+}
+#resume-panel{
+  width:860px;
+  margin:auto;
+ padding: 15px 0;
+}
+
+iframe{
+  width: 100%;
+  vertical-align: center;
+
+}
+
+.pre {
+	margin-right: 5%;
+
+}
+
+.just2 {
+	text-align: left;
+}
+
+.just{
+	word-spacing:-2px;
+	text-align: justify;
+	text-justify: distribute;
+	margin: 0 30%;
+}
+
+.text {
+	font-size: 21px;
+}
+
+
+p.text-enter.just.text{
+	margin-left: 18%;
+	padding-bottom: 5%;
+}
+
+/* <button colors>*/
+.nstyle {
+  color: #000099;
+  color: teal;
+  background-image: none;
+  background-repeat: no-repeat;
+
+}
+.nstyle a:hover, {
+  color: rgb(11, 154, 149);
+}
+
+.nstyle  a:active {
+  color: rgb(11, 154, 149);;
+}
+
+.navbar-default {
+    background-color: ##000099;
+    border-color:  ##000099;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #003366;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: rgb(11, 154, 149);;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a:active {
+    color: #0073E6;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+    color: #0073E6;
+    font-weight: bold;
+}
+
+.footer {
+	font-weight: 580;
+	color: white;
+	border-top: 1px solid #fff;
+	background-color: rgb(32, 64, 86);
+}
+
+#projects{
+	background-color: rgb(32, 64, 86);
+}
+
+
