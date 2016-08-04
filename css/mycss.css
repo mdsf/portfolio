@@ -159,12 +159,12 @@ p.text-enter.just.text{
     transition-delay: 0s;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #003366!important;
-    font-weight: bold;
+       color:rgb(230, 230, 230);
+
 }
 
 .navbar-default .navbar-nav > li> a:hover {
-    color: white!important;
+    color: white;
     font-weight: bold;
 }
 /*
@@ -194,4 +194,7 @@ p.text-enter.just.text{
 	background-color: rgb(32, 64, 86);
 }
 
+.navbar-default .navbar-nav > li > a.highlight-text {
+	color:blue;
+}
 
