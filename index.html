@@ -664,5 +664,14 @@
     parallax();
     });
     </script>
+    
+    <script>
+    $(document).ready(function() {
+    $('.nav').on('click', 'li a', function(evt) {
+        $(this).parents('ul').find('li').find('a').removeClass("highlight-text"); 
+        $(this).addClass("highlight-text"); 
+    });
+});
+</script>
 </body>
 </html>
