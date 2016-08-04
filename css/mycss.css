@@ -158,31 +158,18 @@ p.text-enter.just.text{
     transition-timing-function: ease;
     transition-delay: 0s;
 }
-.navbar-default .navbar-nav > li > a {
-       color:rgb(230, 230, 230);
 
+
+.navbar-default .navbar-nav > li > a {
+    color: #003366;
+    font-weight: bold;
 }
+
 
 .navbar-default .navbar-nav > li> a:hover {
-    color: white;
-    font-weight: bold;
-}
-/*
-.navbar-default .navbar-nav > li > a:hover {
-    color: rgb(11, 154, 149);;
-    font-weight: bold;
+       color:rgb(230, 230, 230);
 }
 
-.navbar-default .navbar-nav > li > a:active {
-    color: #0073E6;
-    font-weight: bold;
-}
-
-.navbar-default .navbar-nav > li > a:focus {
-    color: #0073E6;
-    font-weight: bold;
-}
-*/
 .footer {
 	font-weight: 580;
 	color: white;
